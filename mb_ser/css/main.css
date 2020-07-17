@@ -8,6 +8,21 @@
     --ion-background-color: #1e2023;
 }
 
+ion-segment-button{
+    --background-hover: #1a751a;
+    --background-focused: #1a751a;
+    --color-checked: #1a751a;
+    --indicator-color: #1a751a;
+}
+
+ion-toggle{
+    --handle-background: #2ab62a;
+    --handle-background-checked: #2ab62a;
+
+    --background: #005a00;
+    --background-checked: #1a751a;
+}
+
 .hydrated{
     color: white;
 }
