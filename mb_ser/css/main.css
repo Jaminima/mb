@@ -23,6 +23,24 @@ ion-toggle{
     --background-checked: #1a751a;
 }
 
+ion-item{
+    --border-color: #474747;
+}
+
+.alert-radio-label.sc-ion-alert-md{
+    color: white;
+    border-color: azure;
+}
+
+[aria-checked=true].sc-ion-alert-md .alert-radio-label.sc-ion-alert-md{
+    color: white;
+    border-color: azure;
+}
+
+.alert-title.sc-ion-alert-md{
+    color: white;
+}
+
 .hydrated{
     color: white;
 }
