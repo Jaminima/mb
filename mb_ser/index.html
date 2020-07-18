@@ -19,6 +19,7 @@
 <script src="./js/libs/konva.min.js" defer></script>
 <script src="./js/libs/msgpack.min.js" defer></script>
 <script type="module" src="./js/app.js"></script>
+    <script src="js/utils/theme.js"></script>
 <style>
 ion-toolbar, ion-header {
     --min-height: 48px;
@@ -72,7 +73,7 @@ ion-title {
 
 <div class="ion-page" main>
     <ion-header>
-        <ion-toolbar color="dark" mode="md">
+        <ion-toolbar id="TopBar" color="dark" mode="md">
             <ion-buttons slot="start">
                 <ion-menu-button auto-hide="false" menu="main_menu""></ion-menu-button>
             </ion-buttons>
