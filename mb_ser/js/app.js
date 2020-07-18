@@ -18,6 +18,8 @@ import { Setting }  from './pages/setting.js'
 let app_ver = "_APPVER_";
 let first_install = false;
 
+let BatPath = "img/drk/";
+
 window.mb = {
     app_ver: app_ver,
     db: null,
